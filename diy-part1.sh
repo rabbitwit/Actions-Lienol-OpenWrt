@@ -19,5 +19,5 @@
 # 注释掉lienol大diy1源
 #sed -i 's/^\(.*diy1\)/#&/' feeds.conf.default
 
-# 添加passwall源
+# 添加xiaorouji大openwrt-passwall源
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' feeds.conf.default
